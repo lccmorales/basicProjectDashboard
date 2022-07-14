@@ -1,0 +1,12 @@
+[
+    {
+        "name": "Monitoreo - Servidores",
+        "url":  "http://x.x.x.x/monitoreo/"
+    },{
+        "name": "Phppgadmin - Base de datos",
+        "url":  "http://x.x.x.x/baseDatos/phppgadmin/"
+    },{
+        "name": "Proyecto 1",
+        "url":  "http://localhost/projecto1/"
+    }
+]

@@ -1,0 +1,98 @@
+header,footer,
+article,section,
+hgroup,nav,
+figure{
+    /* Giving a display value to the HTML5 rendered elements: */
+    display:block;
+}
+
+#page{
+    width:90%;
+    margin:0 auto;
+    position:relative;
+}
+
+html {
+    background-color: #333;
+    color:#ffffff;
+}
+
+body {
+    
+}
+
+
+article {
+    color: #C96;
+}
+
+header {
+    text-align: center;
+    color: #C96;
+}
+
+article .line{
+    /* The dividing line inside of the article is darker: */
+    background-color:#15242a;
+    border-bottom-color:#204656;
+    margin:1.3em 0;
+}
+
+footer .line{
+    margin:2em 0;
+}
+
+article, nav ul li a,figure{
+    /* Applying CSS3 rounded corners: */
+    -moz-border-radius:10px;
+    -webkit-border-radius:10px;
+    border-radius:10px;
+}
+
+/* Article styles: */
+
+
+
+article{
+    background-color:#262626;
+/*    background-color:#404040; */
+    margin:3em 0;			
+    padding:20px;
+}
+
+
+/* Footer styling: */
+
+footer{
+    margin-bottom:30px;
+    text-align:center;
+    font-size:0.825em;
+}
+
+footer p{
+    margin-bottom:-2.5em;
+    position:relative;
+}
+
+footer a,footer a:visited{
+    color:#cccccc;
+    background-color:#213e4a;
+    display:block;
+    padding:2px 4px;
+    z-index:100;
+    position:relative;
+}
+
+footer a:hover{
+    text-decoration:none;
+    background-color:#142830;
+}
+
+footer a.by{
+    float:left;
+
+}
+
+footer a.up{
+    float:right;
+}
